@@ -13,6 +13,9 @@ class UserController(private val userService: UserService) {
     fun getAllUsers(): ResponseEntity<List<User>> =
         ResponseEntity.ok(userService.getAllUsers())
 
+
+        测试
+
     @GetMapping("/{id}")
     fun getUserById(@PathVariable id: Long): ResponseEntity<User> =
         ResponseEntity.ok(userService.getUserById(id))

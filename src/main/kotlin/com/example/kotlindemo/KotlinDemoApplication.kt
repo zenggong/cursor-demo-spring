@@ -9,3 +9,13 @@ class KotlinDemoApplication
 fun main(args: Array<String>) {
     runApplication<KotlinDemoApplication>(*args)
 } 
+
+
+
+nihao niaho a 
+
+
+
+
+
+
