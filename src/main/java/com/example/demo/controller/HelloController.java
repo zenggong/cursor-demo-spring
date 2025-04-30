@@ -10,4 +10,11 @@ public class HelloController {
     public String hello() {
         return "Hello, Spring Boot!";
     }
+
+    @GetMapping("/hello/{name}")
+    public String hello(@PathVariable String name) {
+        return "Hello, " + name + "!";
+    }
 } 
+
+
