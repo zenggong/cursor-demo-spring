@@ -12,9 +12,6 @@ fun main(args: Array<String>) {
 
 
 
-nihao niaho a 
-
-
 
 
 
